@@ -1,0 +1,24 @@
+.title-slide {
+  min-height: 100vh;
+  max-height: 100vh;
+  background: url("/assets/img/Bckground-fox-ubhan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo-icon {
+  margin-top: 2rem;
+}
+.title {
+  height: 100%;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  * {
+    margin: 1rem;
+  }
+}
