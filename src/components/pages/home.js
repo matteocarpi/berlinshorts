@@ -22,7 +22,7 @@ class Home extends React.Component {
 
           <div className="intro">
             <h1 className="slogan">{home.slogan}</h1>
-            <a className="button apply" href="#">Apply Now</a>
+            <a className="button apply" href="/">Apply Now</a>
           </div>
 
           <div className="intermezzo-1">
@@ -31,7 +31,6 @@ class Home extends React.Component {
           <div className="mission">
           <h1 className="mission-title">What are We Looking For?</h1>
           <p className="mission">{home.mission}</p>
-          <a className="button more-mission" href="#"></a>
           </div>
 
           <div className="intermezzo-2">
@@ -54,7 +53,7 @@ class Home extends React.Component {
           </div>
           <div className="contacts">
           <h1>Contacts</h1>
-          <a href="mailto:{{ site.email }}"></a>
+          <a href="mailto:{{ site.email }}">hello@berlinshorts.com</a>
           </div>
 
         </div>
