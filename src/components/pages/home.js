@@ -1,6 +1,6 @@
 import React from 'react';
 import home from '../../data/home.json'
-
+import '../../assets/styles/home.scss'
 class Home extends React.Component {
   render () {
       return (
