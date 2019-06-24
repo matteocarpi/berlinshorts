@@ -1,6 +1,9 @@
 import React from 'react';
-import home from '../../data/home.json'
-import '../../assets/styles/styles.scss'
+import home from '../../data/home.json';
+import '../../assets/styles/styles.scss';
+import Logo from '../../assets/img/Fox-logo.png';
+import 'Berlin-shorts-logo-White.svg'
+
 class Home extends React.Component {
   render () {
       return (
@@ -9,7 +12,7 @@ class Home extends React.Component {
 
           <div className="title-slide">
 
-            <img className="logo-icon" src="../../assets/img/Fox-logo.png" alt=""/>
+            <img className="logo-icon" src="assets/img/Fox-logo.png" alt=""/>
 
             <div className="title">
 
