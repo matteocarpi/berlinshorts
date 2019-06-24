@@ -3,7 +3,8 @@ import home from '../../data/home.json';
 import '../../assets/styles/styles.scss';
 import TitleSlide from '../sections/titleSlide.js';
 import Button from "../button";
-import logoVarco from "../../assets/img/LOGO-IL-VARCO.svg"
+import logoVarco from "../../assets/img/LOGO-IL-VARCO.svg";
+import camera from "../../assets/img/video-camera.png";
 
 class Home extends React.Component {
   render () {
@@ -12,39 +13,43 @@ class Home extends React.Component {
         <TitleSlide/>
 
 
-          <div className="intro">
-            <h1 className="slogan">{home.slogan}</h1>
+          <section className="intro">
+            <div>
+              <img alt="" src={camera} className="camera"/>
+              <h1 className="slogan">{home.slogan}</h1>
+            </div>
+
             <Button
               text= "Submit your Film"
               link= "/"
               className="button apply"
             />
-          </div>
+          </section>
 
           <div className="intermezzo-1">
           </div>
 
-          <div className="mission">
-          <h1 className="mission-title">What are We Looking For?</h1>
-          <p className="mission">{home.mission}</p>
-          </div>
+          <section className="mission">
+            <h1 className="mission-title">What are We Looking For?</h1>
+            <p className="mission">{home.mission}</p>
+          </section>
 
           <div className="intermezzo-2">
           </div>
 
-          <div className="location">
+          <section className="location">
             <h1>A screen in the heart of Neukölln</h1>
             <div className="wolfskino">
               <h2>Logo di Wolfskino con foto</h2>
             </div>
-          </div>
+          </section>
 
-          <div className="about">
+          <section className="about">
 
             <h1 className="about-title">Who Are We?</h1>
 
             <div className="varco">
-              <img className="logo-varco" src={logoVarco} />
+              <img alt="" className="logo-varco" src={logoVarco} />
               <p>{home.varco}</p>
             </div>
             {/*
@@ -58,12 +63,12 @@ class Home extends React.Component {
               <p className="bio">{home.matteo}</p>
             </div>
             */}
-          </div>
-          <div className="contacts">
+          </section>
+          <section className="contacts">
             <h1>Contacts</h1>
             <a href="mailto:{{ site.email }}">hello@berlinshorts.com</a>
             <a href="https://www.facebook.com"><i className="fas facebook-f"/></a>
-          </div>
+          </section>
 
 
         </div>

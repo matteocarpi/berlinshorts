@@ -22,6 +22,54 @@
     margin: 1rem;
   }
 }
+.intro {
+  display: flex;
+  flex-direction: column;
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    .camera {
+      max-width: 150px;
+    }
+    * {
+      max-width: 400px;
+    }
+  }
+}
+
+.intermezzo-1 {
+  height: 70vh;
+  background: url("../img/fox-berlin-1.jpg") center/cover;
+}
+
+.intermezzo-2 {
+  height: 70vh;
+  background: url("../img/fox-berlin-2.jpg") center/cover;
+}
+
+.wolfskino {
+  width: 100%;
+  height: 80vh;
+  background: $pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.varco {
+  margin: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .logo-varco {
-  max-width: 300px;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.contacts {
+  margin-bottom: 5rem;
 }
