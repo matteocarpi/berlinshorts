@@ -1,6 +1,6 @@
 import React from 'react';
 import home from '../../data/home.json'
-import '../../assets/styles/home.scss'
+import '../../assets/styles/styles.scss'
 class Home extends React.Component {
   render () {
       return (
@@ -9,7 +9,7 @@ class Home extends React.Component {
 
           <div className="title-slide">
 
-            <img className="logo-icon" src="assets/img/Fox-logo.png" alt=""/>
+            <img className="logo-icon" src="../../assets/img/Fox-logo.png" alt=""/>
 
             <div className="title">
 
