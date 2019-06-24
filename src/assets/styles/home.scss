@@ -30,7 +30,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-
+    width: 100%;
+    max-width: 1000px;
+    margin: 20vh 0;
     .camera {
       max-width: 150px;
     }
@@ -67,7 +69,7 @@
 
 .logo-varco {
   width: 80vw;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 .contacts {

@@ -4,7 +4,7 @@ import '../../assets/styles/styles.scss';
 import TitleSlide from '../sections/titleSlide.js';
 import Button from "../button";
 import logoVarco from "../../assets/img/LOGO-IL-VARCO.svg";
-import camera from "../../assets/img/video-camera.png";
+import camera from "../../assets/img/video-camera.svg";
 
 class Home extends React.Component {
   render () {

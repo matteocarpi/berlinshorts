@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="205px" height="172px" viewBox="0 0 205 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
     <title>video-camera</title>
     <desc>Created with Sketch.</desc>
     <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop" transform="translate(-223.000000, -1129.000000)" fill="#000000">
+        <g id="Desktop" transform="translate(-207.000000, -1279.000000)" fill="#7A0000">
             <g id="Content" transform="translate(0.000000, 960.000000)">
-                <g id="Intro" transform="translate(223.000000, 147.000000)">
+                <g id="Intro" transform="translate(207.000000, 297.000000)">
                     <g id="Group-2">
                         <g id="video-camera" transform="translate(0.000000, 22.000000)">
                             <path d="M203.74359,90.9960067 C201.482051,87.2103161 196.205128,85.7906822 191.933333,88.1567388 L163.287179,103.772712 L156,107.795008 L156,145.178702 L162.784615,148.964393 C163.035897,148.964393 163.035897,149.200998 163.287179,149.200998 L191.430769,164.580366 C192.687179,165.526789 194.446154,166 196.205128,166 C200.979487,166 204.748718,162.450915 204.748718,157.955408 L204.748718,126.25025 L205,95.0183028 C205,93.5986689 204.748718,92.1790349 203.74359,90.9960067 Z" id="Path"></path>
