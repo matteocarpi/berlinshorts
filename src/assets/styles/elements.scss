@@ -3,12 +3,12 @@
 }
 body {
   margin: 0;
-  background-image: $green-gradient;
+  background-color: $yellow;
 }
 
 h1 {
   text-align: center;
-  color: $blue;
+  color: $grey;
   padding: 0 2rem;
   font-size: 30px;
   text-transform: capitalize;
@@ -19,7 +19,7 @@ img {
 }
 p {
   padding: 0 2rem;
-  color: $purple;
+  color: $grey;
   line-height: 1.4;
   font-size: 16px;
   text-align: justify;
@@ -38,8 +38,8 @@ a {
   color: $red;
 }
 a.button {
-  background-color: $pink;
-  color: white;
+  background-color: $red;
+  color: $light-yellow;
   text-decoration: none;
   padding: 1rem 2rem;
   border-radius: 5px;
@@ -55,5 +55,7 @@ a.button {
 }
 
 .button:hover {
-  color: $blue;
+  color: $red;
+  background-color: $yellow;
+  border: solid 1px;
 }

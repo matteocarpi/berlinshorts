@@ -5,6 +5,7 @@ import TitleSlide from '../sections/titleSlide.js';
 import Button from "../button";
 import logoVarco from "../../assets/img/LOGO-IL-VARCO.svg";
 import camera from "../../assets/img/video-camera.svg";
+import wolfskino from "../../assets/img/Wolf-kino.jpg"
 
 class Home extends React.Component {
   render () {
@@ -39,8 +40,8 @@ class Home extends React.Component {
 
           <section className="location">
             <h1>A screen in the heart of Neukölln</h1>
-            <div className="wolfskino">
-              <h2>Logo di Wolfskino con foto</h2>
+            <div lassName="wolfskino">
+              <img className="wolfskino" src={wolfskino} alt=""/>
             </div>
           </section>
 

@@ -15,7 +15,7 @@ class TitleSlide extends React.Component {
             <div className="title">
 
               <img src={title} alt=""/>
-              <img src={date} alt=""/>
+              <img className="date" src={date} alt=""/>
 
             </div>
 
