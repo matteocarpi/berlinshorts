@@ -33,6 +33,11 @@ class Home extends React.Component {
           <section className="mission">
             <h1 className="mission-title">What are We Looking For?</h1>
             <p className="mission">{home.mission}</p>
+            <Button
+              text= "More about the concept"
+              link= "/concept"
+              className="button"
+            />
           </section>
 
           <div className="intermezzo-2">

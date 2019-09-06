@@ -4,7 +4,6 @@ import classnames from 'classnames';
 
 import logo from '../../assets/img/Fox-logo.png';
 import title from "../../assets/img/Berlin-shorts-logo-White.svg";
-import date from "../../assets/img/OCTOBER-2019White.svg";
 
 import styles from '../../assets/styles/TitleSlide.module.scss';
 import universal from '../../assets/styles/Universal.module.scss';
