@@ -1,0 +1,35 @@
+.categoryList {
+  margin: 3rem auto;
+  width: min-content;
+  li {
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+}
+
+div.categoryDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  article {
+    width: 50%;
+    margin: 0 1rem;
+    p {
+      span {
+        font-weight: bold;
+        font-size: 1.3rem;
+      }
+      text-align: left;
+    }
+  }
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  .button {
+    margin-top: 3rem;
+  }
+}

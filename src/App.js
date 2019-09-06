@@ -1,20 +1,26 @@
-import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Home from './components/pages/home';
-import Concept from './components/pages/concept';
+import Navigation from './components/navigation';
+import Home from "./components/pages/home";
+import Concept from "./components/pages/concept";
 
 function App() {
   return (
-    <div className="App">
-
-    <BrowserRouter>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/concept" component={Concept} />
-    </BrowserRouter>
+    <Router>
+      <Switch>
+        <div className="App">
+          <Navigation />
 
 
-    </div>
+
+            <Route exact path="/" component={Home} />
+
+            <Route exact path="/concept" component={Concept} />
+
+        </div>
+      </Switch>
+    </Router>
   );
 }
 

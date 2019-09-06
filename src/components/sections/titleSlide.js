@@ -2,7 +2,6 @@ import React from "react";
 
 import classnames from 'classnames';
 
-import logo from '../../assets/img/Fox-logo.png';
 import title from "../../assets/img/Berlin-shorts-logo-White.svg";
 
 import styles from '../../assets/styles/TitleSlide.module.scss';
@@ -14,8 +13,6 @@ class TitleSlide extends React.Component {
         <div className="Home">
 
           <div className="title-slide">
-
-            <img className="logo-icon" src={logo} alt=""/>
 
             <div className="title">
 

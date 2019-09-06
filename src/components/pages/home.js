@@ -45,9 +45,17 @@ class Home extends React.Component {
 
           <section className="location">
             <h1>A screen in the heart of Neukölln</h1>
-            <div lassName="wolfskino">
+            <p>{home.cinema}</p>
+            <div className="wolfskino">
               <img className="wolfskino" src={wolfskino} alt=""/>
             </div>
+
+            <Button
+              text="More About Wolfskino"
+              link="https://wolfberlin.org/en/history"
+              className="button"
+              target="_blank"
+            />
           </section>
 
           <section className="about">

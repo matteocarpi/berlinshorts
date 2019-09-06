@@ -1,3 +1,28 @@
+@import './colors.scss';
+
 .white {
   color: white;
+}
+
+a.button {
+  background-color: $red;
+  color: $light-yellow;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  box-shadow: rgba(000, 000, 000, 0.2) 2px 2px;
+  transition: 0.3s ease-in-out;
+  flex: 0;
+  text-align: center;
+  width: min-content;
+  white-space: nowrap;
+  margin: 0 auto;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  color: $red;
+  background-color: $yellow;
+  border: solid 1px;
 }
