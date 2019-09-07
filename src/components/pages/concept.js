@@ -16,7 +16,7 @@ class Concept extends React.Component {
           <h1>{data.title}</h1>
           <p>{data.conceptContent}</p>
         </section>
-        <section className={styles.details}>
+        <div className={styles.details}>
           <h1>{data.details.title}</h1>
           <p>{data.details.text}</p>
           <div className={styles.categoryList}>
@@ -50,7 +50,7 @@ class Concept extends React.Component {
               link= "/"
               className={classnames(universal.button, universal.apply, styles.button)}
             />
-        </section>
+        </div>
 
 
       </main>
