@@ -23,7 +23,7 @@ class Home extends React.Component {
 
           <section className={styles.intro}>
             <div>
-              <img alt="" src={camera} className="camera"/>
+              <img alt="video camera icon" src={camera} className="camera"/>
               <h1 className={styles.slogan}>{home.slogan}</h1>
             </div>
 
