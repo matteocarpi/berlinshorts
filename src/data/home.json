@@ -1,17 +1,19 @@
 {
   "title": "Home",
-  "slogan": "An evening of shorts from all over the world",
-  "mission": "The first edition of Berlin Shorts aims at the diffusion of original cinematographic works, with a maximum duration of 40 minutes. Bacause of their nature and for- mat, those cinematographic works often struggle to find space in theaters or on television and need a dedicated event to be disclosed.",
+  "slogan": "An evening of shorts from all over the world.",
+  "mission": "We are looking for international short movies with with maximum duration of 40'.",
   "cinema": "A lot has happened from the 20th of December 2011, the date when Verena first stepped into the building that would eventually become Wolf, to what will be our official opening on the 25th February, that has taken what was once a disused and crumbling space and turned it into a cinema. Those years have been filled with an unimaginable energy and continued commitment from an innumerable amount of people whose combined efforts have finally pushed Wolf into existence.",
   "varco": "We take the time to listen, so others feel comfortable to be themselves, and supported to succeed. We’re always thinking ahead, figuring out how to make the most purposeful impact. Have fun, together. We are united in our determination to create meaningful change, taking pride in making long-lasting impact.",
-  "people": {
-    "lilian": {
+  "people": [
+    {
       "name": "Lilian Sassanelli",
-      "bio": "Is a director and screen writer. She lived in Berlin for 5 years and lives now across rome and Berlin looking for new stories to tell."
+      "role": "Artistic Director and Organizer",
+      "bio": "Born in Hamburg, Germany, in 1993. Lilian grew up in Rome. She started working in cinema at the age of 3 as an actress in the films: “Fuori di me” by Gianni Zanasi and “Matrimoni” by Cristina Comencini. In 2006 she starred in the short film “Il parco dei mostri” with Rocco Papaleo, in 2010 in the series “Distretto di Polizia” and “La scelta di Laura”. In 2013 she decided to rediscover her German roots by moving to Berlin where she did a 6-month internship as a production assistant in Wüste Film Ost, then she worked at the making of some short films, both as assistant director and as an actress. Since 2014 she has been studying German literature and European ethnology at Humboldt - Universität zu Berlin. In 2017 she worked as assistant director and dia- logue coach on the film “Due piccoli italiani” by Paolo Sassanelli. In 2018 she directs, writes and produces the shortmovie “Im Bären” wich had his world premiere at “Alice nella città” (Rome film festival), then it was showed at “Afrodite Shorts” and at “Asti Film Festival” where it wo best director and the special prize of the critic."
     },
-    "matteo": {
+    {
       "name": "Matteo Carpi",
-      "bio": "Is a theatre maker and actor. He’s based in berlin but travels with his theatre company around festivals."
+      "role": "Organizer",
+      "bio": "He is an Italian theatre maker from Rome, class 1994. He started training as an actor at the age of 15, first in Rome then in London and in Berlin. Most recently, he graduated at the London International School of Performing Arts, completing an MA in “Devised Theatre and Performance” in collaboration with Rose Bruford College University of London. Since 2016, his base is Berlin, where he found the international collective “Bacterial Factory”. In his recent work he mostly focused on absurdist phisical comedy and documentary film-making."
     }
-  }
+  ]
 }

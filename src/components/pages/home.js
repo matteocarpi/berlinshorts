@@ -72,17 +72,22 @@ class Home extends React.Component {
               <img alt="" className={styles.logoVarco} src={logoVarco} />
               <p>{home.varco}</p>
             </div>
-            {/*
-              <div className="lilian">
-              <h2 className="name">Lilian Sassanelli</h2>
-              <p className="bio">{home.lilian}</p>
-              </div>
 
-              <div className="matteo">
-              <h2 className="name">Matteo Carpi</h2>
-              <p className="bio">{home.matteo}</p>
-              </div>
-            */}
+            <section>
+              {home.people.map((person, index) => {
+                return(
+                  <article className={styles.person}>
+                    <div className={styles.title}>
+                      <h2>{person.name}</h2>
+                      <span>{person.role}</span>
+                    </div>
+                    <p>
+                      {person.bio}
+                    </p>
+                  </article>
+                )
+              })}
+            </section>
           </section>
           <section className={styles.contacts}>
             <h1>Contacts</h1>
