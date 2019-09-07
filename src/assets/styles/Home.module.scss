@@ -8,9 +8,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.logo-icon {
-  margin-top: 2rem;
-}
 .title {
   height: 100%;
   margin-bottom: 3rem;
@@ -47,12 +44,12 @@
   }
 }
 
-.intermezzo-1 {
+.intermezzo1 {
   height: 70vh;
   background: url("../img/fox-berlin-1.jpg") center/cover;
 }
 
-.intermezzo-2 {
+.intermezzo2 {
   height: 70vh;
   background: url("../img/fox-berlin-2.jpg") center/cover;
 }
@@ -72,7 +69,7 @@
   flex-direction: column;
 }
 
-.logo-varco {
+.logoVarco {
   width: 80vw;
   margin: 2rem auto;
   max-width: 800px;

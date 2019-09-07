@@ -4,3 +4,23 @@
   font-size: 26px;
   font-weight: 200;
 }
+.titleSlide {
+  height: 100vh;
+  background: url("../img/Bckground-fox-ubhan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title {
+  height: 100%;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  * {
+    margin: 1rem;
+  }
+}

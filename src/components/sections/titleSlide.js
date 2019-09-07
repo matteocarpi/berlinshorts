@@ -10,11 +10,11 @@ import universal from '../../assets/styles/Universal.module.scss';
 class TitleSlide extends React.Component {
   render() {
       return (
-        <div className="Home">
+        <div className={styles.Home}>
+          
+          <div className={styles.titleSlide}>
 
-          <div className="title-slide">
-
-            <div className="title">
+            <div className={styles.title}>
 
               <img src={title} alt=""/>
               <span className={classnames(styles.date, universal.white)}>OCTOBER 2019</span>
