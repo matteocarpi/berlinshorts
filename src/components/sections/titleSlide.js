@@ -2,7 +2,7 @@ import React from "react";
 
 import classnames from 'classnames';
 
-import title from "../../assets/img/Berlin-shorts-logo-White.svg";
+import title from "../../assets/img/Berlin-Shorts-logo.svg";
 
 import styles from '../../assets/styles/TitleSlide.module.scss';
 import universal from '../../assets/styles/Universal.module.scss';
