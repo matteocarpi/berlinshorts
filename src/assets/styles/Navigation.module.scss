@@ -1,18 +1,37 @@
-@import './colors.scss';
+@import './variables.scss';
 
-@media (min-width: 769px) {
-  .mobile {
+.mobile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  position: absolute;
+  .logo {
+    margin: 0 auto;
+  }
+  ul {
     display: none;
   }
-  .desktop {
-    display: block;
+  li {
+    list-style: none;
+    margin: 1rem;
+    border-bottom: 1px $yellow solid;
+    a {
+      color: $yellow;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
   }
-  .transparent {
-    position: absolute;
-    background-color: transparent;
+  &.opened {
+    background-color: rgba(0,0,0,0.5);
+    ul {
+      display: list;
+    }
   }
 }
 .desktop {
+  display: none;
   width: 100%;
   padding: 1rem auto 1rem auto;
   ul {
@@ -41,5 +60,17 @@
   }
   .logo {
     margin: 0 4rem;
+  }
+}
+@media (min-width: 769px) {
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+  .transparent {
+    position: absolute;
+    background-color: transparent;
   }
 }
