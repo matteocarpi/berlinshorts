@@ -3,9 +3,10 @@ import classnames from 'classnames';
 
 import TitleSlide from '../sections/titleSlide.js';
 import Button from "../button";
+import CategoryList from '../categoryList';
 
 import home from '../../data/home.json';
-
+import concept from '../../data/concept.json';
 import logoVarco from "../../assets/img/LOGO-IL-VARCO.svg";
 import camera from "../../assets/img/video-camera.svg";
 import wolfskino from "../../assets/img/Wolf-kino.jpg"
@@ -39,6 +40,10 @@ class Home extends React.Component {
           <section className={styles.mission}>
             <h1 className={styles.missionTitle}>What are We Looking For?</h1>
             <p className={styles.mission}>{home.mission}</p>
+
+            <h2>Categories</h2>
+
+            <CategoryList />
             <Button
               text= "More about the concept"
               link= "/concept"

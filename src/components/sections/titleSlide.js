@@ -18,6 +18,7 @@ class TitleSlide extends React.Component {
 
               <img src={title} alt=""/>
               <span className={classnames(styles.date, universal.white)}>March 2020</span>
+              
             </div>
           </div>
         </div>
