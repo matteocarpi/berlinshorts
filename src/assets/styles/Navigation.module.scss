@@ -22,7 +22,7 @@ nav.mobile {
       color: $yellow;
       text-decoration: none;
       text-transform: uppercase;
-      font-weight: bold;
+      font: 100% $bold;
     }
   }
   &.solid {
@@ -65,7 +65,7 @@ nav.mobile {
         color: $yellow;
         text-decoration: none;
         text-transform: uppercase;
-        font-weight: bold;
+        font: 100% $bold;
       }
     }
   }
