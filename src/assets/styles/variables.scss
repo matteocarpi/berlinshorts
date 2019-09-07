@@ -1,3 +1,4 @@
+// Colors
 $green: #D3EFD7;
 $blue: #000547;
 $grey: #343435;
@@ -7,3 +8,16 @@ $pink: #EB8181;
 $yellow: #F4C944;
 $light-yellow: #F4D66E;
 $green-gradient: linear-gradient(223deg, rgba(255,255,255,0.50) 0%, rgba(87,166,140,0.60) 100%);
+
+// Fonts
+@font-face {
+  font-family: "CST-Regular";
+  src: url("../fonts/CstBerlinWestOT.woff") format("woff");
+}
+@font-face {
+  font-family: "CST-Bold";
+  src: url("../fonts/CstBerlinWestOT-Bold.woff") format("woff");
+}
+
+$regular: "CST-Regular", Helvetica;
+$bold: "CST-Bold", Helvetica;
