@@ -11,13 +11,13 @@ class TitleSlide extends React.Component {
   render() {
       return (
         <div className={styles.Home}>
-          
+
           <div className={styles.titleSlide}>
 
             <div className={styles.title}>
 
               <img src={title} alt=""/>
-              <span className={classnames(styles.date, universal.white)}>OCTOBER 2019</span>
+              <span className={classnames(styles.date, universal.white)}>March 2020</span>
             </div>
 
           </div>
