@@ -47,7 +47,7 @@ class Navigation extends React.Component {
             {navigation.map((item, index) => {
               return (
                 <li key={item.name}>
-                  <Link to={item.link}>{item.name}</Link>
+                  <Link onClick={this.closeMenu} to={item.link}>{item.name}</Link>
                 </li>
               )
             })}
