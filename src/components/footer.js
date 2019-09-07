@@ -1,5 +1,6 @@
 import React from "react";
 
+// eslint-disable-next-line
 import universal from '../assets/styles/Universal.module.scss';
 
 class Footer extends React.Component {
