@@ -1,6 +1,7 @@
 @import './variables.scss';
 
-.mobile {
+nav.mobile {
+  position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -23,10 +24,27 @@
       font-weight: bold;
     }
   }
+  &.solid {
+    background-color: $red;
+    position: relative;
+    padding-bottom: 1rem;
+    &.opened {
+      background-color: $red;
+    }
+  }
   &.opened {
     background-color: rgba(0,0,0,0.5);
     ul {
-      display: list;
+      display: block;
+    }
+  }
+  div.menuButton {
+    position: absolute;
+    left: 45px;
+    top: 60px;
+    i {
+      color: $yellow;
+      font-size: 30px;
     }
   }
 }
@@ -63,7 +81,7 @@
   }
 }
 @media (min-width: 769px) {
-  .mobile {
+  nav.mobile {
     display: none;
   }
   .desktop {
