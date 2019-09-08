@@ -8,16 +8,19 @@
       {
         "title": "Berlin Originals",
         "image": "/assets/img/berlin-originals.jpg",
+        "imageLarge": "/assets/img/berlin-originals-large.jpg",
         "description": "addresses works shot in Berlin. We are looking for mov- ies that explore the emotions, the challenges, but also the advantages, that come with living in a big city such as Berlin."
       },
       {
         "title": "International Shorts",
         "image": "/assets/img/international-shorts.jpg",
+        "imageLarge": "/assets/img/international-shorts-large.jpg",
         "description": "addresses all works from around the world about every kind of topic."
       },
       {
         "title": "International Documentaries",
         "image": "/assets/img/international-documentaries.jpg",
+        "imageLarge": "/assets/img/international-documentaries-large.jpg",
         "description": "is dedicated to documentaries of all genres from all over the world."
       }
     ]

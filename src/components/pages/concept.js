@@ -20,15 +20,28 @@ class Concept extends React.Component {
         <div className={styles.details}>
           <h1>{data.details.title}</h1>
           <p>{data.details.text}</p>
-          <CategoryList />
 
-          {/* <div className={styles.categoryDetails}>
-            {data.details.categories.map((category) => {
-              return(
-
+          <div className={styles.bigPictures}>
+            {data.details.categories.map((category, index) => {
+              const divStyle = {
+                backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),url(${category.imageLarge})`
+              }
+              return (
+                <div className={styles.categoryWrap} style={divStyle}>
+                  <h2>{category.title}</h2>
+                </div>
               )
             })}
-          </div> */}
+
+          </div>
+
+          <div className={styles.categoryDescriptions}>
+            {data.details.categories.map((category, index) => {
+              return(
+                <p><span>{category.title}</span> {category.description}</p>
+              )
+            })}
+          </div>
 
             <Button
               text= "Submit your Film"
