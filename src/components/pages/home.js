@@ -66,7 +66,7 @@ class Home extends React.Component {
             <h1>A screen in the heart of Neukölln</h1>
             <p>{home.cinema}</p>
             <div className={styles.wolfskino}>
-              <img className={styles.wolfskino} src={wolfskino} alt=""/>
+              <img className={styles.wolfskino} src={wolfskino} alt="the projection room"/>
             </div>
 
             <Button
@@ -92,6 +92,7 @@ class Home extends React.Component {
                   <article className={styles.person}>
                     <div className={styles.title}>
                       <img
+                        alt={`a headshot of ${person.name}`}
                         className={styles.avatar}
                         src={person.avatar}/>
                       <h2>{person.name}</h2>
