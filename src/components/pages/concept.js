@@ -2,7 +2,6 @@ import React from 'react';
 import classnames from 'classnames';
 
 import Button from '../button';
-import CategoryList from '../categoryList';
 
 import universal from '../../assets/styles/Universal.module.scss';
 import styles from '../../assets/styles/Concept.module.scss';
@@ -32,21 +31,26 @@ class Concept extends React.Component {
                 backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),url(${category.imageLarge})`
               }
               return (
-                <div className={styles.categoryWrap} style={divStyle}>
-                  <h2>{category.title}</h2>
+                <div className={styles.wrap}>
+                  <div className={styles.categoryImage} style={divStyle}>
+                  </div>
+                  <div className={styles.info}>
+                    <h1>{category.title}</h1>
+                    <p>{category.description}</p>
+                  </div>
                 </div>
               )
             })}
 
           </div>
 
-          <div className={styles.categoryDescriptions}>
+          {/* <div className={styles.categoryDescriptions}>
             {data.details.categories.map((category, index) => {
               return(
                 <p><span>{category.title}</span> {category.description}</p>
               )
             })}
-          </div>
+          </div> */}
 
             <Button
               text= "Submit your Film"

@@ -25,7 +25,16 @@ div.bigPictures {
   flex-wrap: wrap;
   margin: 2rem 0;
 }
-div.categoryWrap {
+.wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .info {
+    padding: 3rem 0;
+  }
+}
+div.categoryImage {
   width: 100%;
   background-size: cover;
   background-position: center;
