@@ -12,7 +12,7 @@ import data from '../../data/concept.json';
 class Concept extends React.Component {
   render () {
     return (
-      <main>
+      <main id={this.props.id}>
         <section>
           <h1>{data.title}</h1>
           <p>{data.conceptContent}</p>

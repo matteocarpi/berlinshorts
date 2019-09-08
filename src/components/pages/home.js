@@ -1,12 +1,14 @@
 import React from 'react';
 import classnames from 'classnames';
 
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
+import Concept from './concept';
 import TitleSlide from '../sections/titleSlide.js';
 import Button from "../button";
 import CategoryList from '../categoryList';
 
 import home from '../../data/home.json';
-import concept from '../../data/concept.json';
 import logoVarco from "../../assets/img/LOGO-IL-VARCO.svg";
 import camera from "../../assets/img/video-camera.svg";
 import wolfskino from "../../assets/img/Wolf-kino.jpg"
@@ -44,15 +46,18 @@ class Home extends React.Component {
             <h2>Categories</h2>
 
             <CategoryList />
-            <Button
-              text= "More about the concept"
-              link= "/concept"
+            <AnchorLink
+              href= "#concept"
               className={universal.button}
-            />
+            >
+              More about the concept
+            </AnchorLink>
           </section>
 
           <div className={styles.intermezzo2}>
           </div>
+
+          <Concept id='concept'/>
 
           <section className={styles.location}>
             <h1>A screen in the heart of Neukölln</h1>
