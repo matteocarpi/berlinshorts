@@ -26,7 +26,7 @@ div.bigPictures {
   margin: 2rem 0;
 }
 div.categoryWrap {
-  width: calc(50% - 6px);
+  width: 100%;
   background-size: cover;
   background-position: center;
   min-height: 400px;
@@ -48,10 +48,6 @@ div.categoryWrap {
     max-width: 300px;
     padding: 2rem;
   }
-}
-div.categoryWrap:first-child {
-  width: 100%;
-  flex-direction: row;
 }
 
 .categoryDescriptions {
