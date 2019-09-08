@@ -18,6 +18,9 @@ class Concept extends React.Component {
           <p>{data.conceptContent}</p>
         </section>
 
+        <div className={styles.intermezzo}>
+        </div>
+
         <div id='categories' className={styles.details}>
           <h1>{data.details.title}</h1>
           <p>{data.details.text}</p>

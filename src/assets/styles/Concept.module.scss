@@ -62,6 +62,11 @@ div.categoryWrap:first-child {
     text-align: left;
   }
 }
+.intermezzo {
+  height: 70vh;
+  background: url("../img/alarm.jpg") center/cover;
+}
+
 @media (max-width: 768px) {
   .bigPictures {
     flex-direction: column;
