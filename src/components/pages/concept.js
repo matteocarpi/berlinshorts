@@ -22,9 +22,10 @@ class Concept extends React.Component {
         </div>
 
         <div id='categories' className={styles.details}>
-          <h1>{data.details.title}</h1>
-          <p>{data.details.text}</p>
-
+          <div className={styles.intro}>
+            <h1>{data.details.title}</h1>
+            <p>{data.details.text}</p>
+          </div>
           <div className={styles.bigPictures}>
             {data.details.categories.map((category, index) => {
               const divStyle = {
