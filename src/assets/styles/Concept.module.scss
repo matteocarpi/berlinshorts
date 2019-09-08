@@ -34,9 +34,10 @@ div.categoryWrap {
   justify-content: center;
   border: dotted $yellow;
   h2 {
+    text-align: center;
     background-color: $yellow;
     padding: 0.5rem 1rem;
-    font: 300% $bold;
+    font: 200% $bold;
   }
   p {
     background-color: $red;
