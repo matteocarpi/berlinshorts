@@ -46,6 +46,7 @@ class Home extends React.Component {
             <h2>Categories</h2>
 
             <CategoryList />
+
             <AnchorLink
               href= "#concept"
               className={universal.button}
@@ -59,7 +60,9 @@ class Home extends React.Component {
 
           <Concept id='concept'/>
 
-          <section className={styles.location}>
+          <section
+            id='location'
+            className={styles.location}>
             <h1>A screen in the heart of Neukölln</h1>
             <p>{home.cinema}</p>
             <div className={styles.wolfskino}>
@@ -74,7 +77,7 @@ class Home extends React.Component {
             />
           </section>
 
-          <section className={styles.about}>
+          <section id='about' className={styles.about}>
 
             <h1 className={styles.aboutTitle}>Who Are We?</h1>
 
@@ -83,11 +86,14 @@ class Home extends React.Component {
               <p>{home.varco}</p>
             </div>
 
-            <section>
+            <section className={styles.people}>
               {home.people.map((person, index) => {
                 return(
                   <article className={styles.person}>
                     <div className={styles.title}>
+                      <img
+                        className={styles.avatar}
+                        src={person.avatar}/>
                       <h2>{person.name}</h2>
                       <span>{person.role}</span>
                     </div>

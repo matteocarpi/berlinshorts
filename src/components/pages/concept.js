@@ -17,7 +17,8 @@ class Concept extends React.Component {
           <h1>{data.title}</h1>
           <p>{data.conceptContent}</p>
         </section>
-        <div className={styles.details}>
+
+        <div id='categories' className={styles.details}>
           <h1>{data.details.title}</h1>
           <p>{data.details.text}</p>
 

@@ -62,3 +62,15 @@ div.categoryWrap:first-child {
     text-align: left;
   }
 }
+@media (max-width: 768px) {
+  .bigPictures {
+    flex-direction: column;
+    .categoryWrap {
+      width: 100%;
+      h2 {
+        font: 150% $bold;
+        text-align: center;
+      }
+    }
+  }
+}

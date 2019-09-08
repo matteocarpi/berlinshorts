@@ -1,15 +1,16 @@
-import React from 'react';
-import { withRouter, Link } from 'react-router-dom';
-import classnames from 'classnames';
+import React from "react";
+import { withRouter } from "react-router-dom";
+import { NavHashLink as Link } from "react-router-hash-link";
 
-import navigation from '../data/navigation.json';
+import classnames from "classnames";
 
-import logo from '../assets/img/Fox-logo.png';
+import navigation from "../data/navigation.json";
 
-import styles from '../assets/styles/Navigation.module.scss';
+import logo from "../assets/img/Fox-logo.png";
+
+import styles from "../assets/styles/Navigation.module.scss";
 
 class Navigation extends React.Component {
-
   constructor(props) {
     super(props);
 
@@ -30,11 +31,32 @@ class Navigation extends React.Component {
     const { isMenuOpen } = this.state;
     const position = this.props.location.pathname;
 
+    const navigationElems = navigation.map(item => (
+      <li>
+        <Link
+          smooth
+          to={item.link}>{item.name}
+        </Link>
+      </li>
+    ));
+
+    navigationElems.splice(
+      Math.round(navigation.length / 2),
+      0,
+      <li>
+        <img className={styles.logo} src={logo} alt="icon of a fox" />
+      </li>
+    );
+
     return (
-
       <header>
-        <nav className={classnames(styles.mobile, position === "/" ? styles.transparent : styles.solid, isMenuOpen ? styles.opened : styles.closed)}>
-
+        <nav
+          className={classnames(
+            styles.mobile,
+            position === "/" ? styles.transparent : styles.solid,
+            isMenuOpen ? styles.opened : styles.closed
+          )}
+        >
           <div
             className={styles.menuButton}
             onClick={this.handleMenuButtonClick}
@@ -42,33 +64,44 @@ class Navigation extends React.Component {
             <i class="fas fa-bars" />
           </div>
 
-          <img className={styles.logo} src={logo} alt=""/>
+          <img className={styles.logo} src={logo} alt="" />
           <ul>
             {navigation.map((item, index) => {
               return (
                 <li key={item.name}>
-                  <Link onClick={this.closeMenu} to={item.link}>{item.name}</Link>
+                  <Link smooth onClick={this.closeMenu} to={item.link}>
+                    {item.name}
+                  </Link>
                 </li>
-              )
+              );
             })}
           </ul>
         </nav>
 
-        <nav className={classnames(styles.desktop, position === "/" ? styles.transparent : styles.solid )}>
+        <nav className={classnames(styles.desktop, styles.transparent)}>
           <ul>
-            <li>
-              <Link to={navigation[0].link}>{navigation[0].name}</Link>
+            {/* <li>
+              <Link smooth to={navigation[0].link}>
+                {navigation[0].name}
+              </Link>
             </li>
             <li>
-              <img className={styles.logo} src={logo} alt=""/>
+              <img className={styles.logo} src={logo} alt="" />
             </li>
             <li>
-              <Link to={navigation[1].link}>{navigation[1].name}</Link>
-            </li>
+              <Link smooth to={navigation[1].link}>
+                {navigation[1].name}
+              </Link>
+            </li> */}
+            {navigationElems.map((item, index) => {
+              return(
+                item
+              )
+            })}
           </ul>
         </nav>
       </header>
-    )
+    );
   }
 }
 

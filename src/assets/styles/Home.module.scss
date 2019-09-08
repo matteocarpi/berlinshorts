@@ -83,10 +83,9 @@ article.person {
   flex-direction: column;
   align-items: center;
   margin-top: 4rem;
-
+  flex: 1 1 0;
   .title {
     text-align: center;
-
   }
 }
 section.mission {
@@ -98,4 +97,15 @@ section.mission {
       }
     }
   }
+}
+.avatar {
+  width: 250px;
+}
+section.people {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 1000px;
 }

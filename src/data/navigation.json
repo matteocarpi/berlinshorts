@@ -5,6 +5,14 @@
   },
   {
     "name": "The Concept",
-    "link": "/concept"
+    "link": "#concept"
+  },
+  {
+    "name": "Location",
+    "link": "#location"
+  },
+  {
+    "name": "About",
+    "link": "#about"
   }
 ]

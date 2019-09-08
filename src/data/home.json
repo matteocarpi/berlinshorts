@@ -2,17 +2,19 @@
   "title": "Home",
   "slogan": "An evening of shorts from all over the world.",
   "mission": "We are looking for short movies with maximum duration of 40'.",
-  "cinema": "A lot has happened from the 20th of December 2011, the date when Verena first stepped into the building that would eventually become Wolf, to what will be our official opening on the 25th February, that has taken what was once a disused and crumbling space and turned it into a cinema. Those years have been filled with an unimaginable energy and continued commitment from an innumerable amount of people whose combined efforts have finally pushed Wolf into existence.",
+  "cinema": "The Studio is under the same roof as the cinema but with a separate entrance on street level. It is the left brain of Wolf, where the boundaries of the traditional cinema screen are challenged. The Studio room is a versatile and convertible screening-, exhibition- or event space and its programme is concerned with all aspects of the moving image: be it analogue or digital, virtual or hyperreal. Its multi-functionality accommodates exhibitions, installations and live-performances. Wolf also offers regular workshops and discussions creating a space where film education, training and practice merge – where those curious about film and those who are experts meet and exchange.",
   "varco": "We take the time to listen, so others feel comfortable to be themselves, and supported to succeed. We’re always thinking ahead, figuring out how to make the most purposeful impact. Have fun, together. We are united in our determination to create meaningful change, taking pride in making long-lasting impact.",
   "people": [
     {
       "name": "Lilian Sassanelli",
       "role": "Artistic Director and Organizer",
+      "avatar": "/assets/img/lilian.jpg",
       "bio": "Born in Hamburg, Germany, in 1993. Lilian grew up in Rome. She started working in cinema at the age of 3 as an actress. In 2013 she decided to rediscover her German roots by moving to Berlin, where she worked as a production assistant at Wüste Film Ost and studied German literature and European ethnology at the Humboldt University. In 2017 she worked as assistant director and dialogue coach on the film “Due Piccoli Italiani” by Paolo Sassanelli. In 2018 she directs, writes and produces the short movie “Im Bären” wich had his world premiere at Alice nella città (Rome film festival), and was then nominee under the best five Italian short movies at David di Donatello and Nastri d’Argento (silver ribbon). It was then shown at many other festivals around the world and won several prizes. Since 2018 Lilian works as an intern production member for Il Varco."
     },
     {
       "name": "Matteo Carpi",
       "role": "Organizer",
+      "avatar": "/assets/img/matteo.jpg",
       "bio": "He is an Italian theatre maker from Rome, class 1994. He started training as an actor at the age of 15, first in Rome then in London and in Berlin. Most recently, he graduated at the London International School of Performing Arts, completing an MA in “Devised Theatre and Performance” in collaboration with Rose Bruford College University of London. Since 2016, his base is Berlin, where he found the international collective “Bacterial Factory”. In his recent work he mostly focused on absurdist phisical comedy and documentary film-making."
     }
   ]
