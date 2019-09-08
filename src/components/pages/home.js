@@ -43,7 +43,7 @@ class Home extends React.Component {
             <h1 className={styles.missionTitle}>What are We Looking For?</h1>
             <p className={styles.mission}>{home.mission}</p>
 
-            <h2>Categories</h2>
+            <h1>Categories</h1>
 
             <CategoryList />
 
@@ -59,6 +59,9 @@ class Home extends React.Component {
           </div>
 
           <Concept id='concept'/>
+
+          <div className={styles.intermezzo3}>
+          </div>
 
           <section
             id='location'
