@@ -15,8 +15,19 @@ class Navigation extends React.Component {
     super(props);
 
     this.state = {
-      isMenuOpen: false
+      isMenuOpen: false,
+      isPageScrolled: false
     };
+  }
+
+  listenScrollEvent = e => {
+    window.scrollY > 580
+      ? this.setState({ isPageScrolled: true })
+      : this.setState({ isPageScrolled: false });
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent)
   }
 
   handleMenuButtonClick = () => {
@@ -28,14 +39,13 @@ class Navigation extends React.Component {
   };
 
   render() {
-    const { isMenuOpen } = this.state;
+    const { isMenuOpen, isPageScrolled } = this.state;
     const position = this.props.location.pathname;
 
     const navigationElems = navigation.map(item => (
       <li>
-        <Link
-          smooth
-          to={item.link}>{item.name}
+        <Link smooth to={item.link}>
+          {item.name}
         </Link>
       </li>
     ));
@@ -54,7 +64,7 @@ class Navigation extends React.Component {
           className={classnames(
             styles.mobile,
             position === "/" ? styles.transparent : styles.solid,
-            isMenuOpen ? styles.opened : styles.closed
+            isMenuOpen ? styles.opened : styles.closed, isPageScrolled ? styles.fixed : styles.normal
           )}
         >
           <div
@@ -80,23 +90,8 @@ class Navigation extends React.Component {
 
         <nav className={classnames(styles.desktop, styles.transparent)}>
           <ul>
-            {/* <li>
-              <Link smooth to={navigation[0].link}>
-                {navigation[0].name}
-              </Link>
-            </li>
-            <li>
-              <img className={styles.logo} src={logo} alt="" />
-            </li>
-            <li>
-              <Link smooth to={navigation[1].link}>
-                {navigation[1].name}
-              </Link>
-            </li> */}
             {navigationElems.map((item, index) => {
-              return(
-                item
-              )
+              return item;
             })}
           </ul>
         </nav>

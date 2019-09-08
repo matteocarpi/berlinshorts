@@ -5,8 +5,21 @@ nav.mobile {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding-top: 1rem;
+  padding: 1rem 0;
   position: absolute;
+  &.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    .menuButton {
+      top: 27px;
+    }
+    .logo {
+      padding: 0;
+      width: 40px;
+    }
+  }
   .logo {
     margin: 0 auto;
   }
