@@ -116,3 +116,9 @@ section.people {
   width: 100%;
   max-width: 1000px;
 }
+
+@media (max-width: 930px) {
+  section.people {
+  flex-direction: column;
+  }
+}
